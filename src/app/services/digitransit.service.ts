@@ -14,6 +14,8 @@ export class DigitransitService {
         const body = `{
                     stops(name: "${this.pysakki}") {
                       name
+                      lat
+                      lon
                       patterns {
                         name
                         route {
